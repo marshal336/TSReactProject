@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.quots-gradient {
+    background: linear-gradient(189deg, rgba(252, 252, 252, 0.00) 20.34%, rgba(255, 255, 255, 0.50) 155.72%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.absoluteCircle {
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    background-image: url(./assets/img/orangeCircle.svg);
+    width: 159px;
+    height: 159px;
+}
+
+.absoluteCircleLeft {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    background-image: url(./assets/img/orangeCircle.svg);
+    width: 159px;
+    height: 159px;
+}
+
+.blurNumanName {
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(40, 48, 54, 0.20);
+    backdrop-filter: blur(25px);
+}
+
+.circleOne {
+    width: 380px;
+    height: 380px;
+    border-radius: 380px;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    background: rgba(40, 48, 54, 0.30);
+    backdrop-filter: blur(25px);
+    z-index: -1;
+}
+
+.circleTwo {
+    border-radius: 305.652px;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    background: rgba(40, 48, 54, 0.40);
+    backdrop-filter: blur(25px);
+    z-index: -1;
+}
